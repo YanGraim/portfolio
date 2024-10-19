@@ -33,6 +33,10 @@ export default [
         'warn',
         { allowConstantExport: true },
       ],
+      'react/prop-types': 'off', // Desativa warnings de prop-types
+      'react/react-in-jsx-scope': 'off', // Para React 17+
+      'no-console': 'off', // Permite usar console.log
+      'no-unused-vars': 'warn', // Apenas alerta sobre variáveis não usadas
     },
   },
 ]
